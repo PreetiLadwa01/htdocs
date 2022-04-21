@@ -15,7 +15,7 @@
     <?php
     function even($nums)
     { 
-     $evens = 0;
+     $evens = 0;    
  
      for ($i = 0; $i < sizeof($nums); $i++)
           {
@@ -196,7 +196,7 @@ echo "Number of average elements in an array: ". average([1,2,3,4,5,6,7,8,9,10])
         $Q3 = $a[$mid_index + median($a, $mid_index + 1, $m)];
         return ($Q3 - $Q1);
     }
-    $a = array( 1, 19, 7, 6, 5, 9);
+    $a = array( 1, 19, 7, 6, 5, 9, 17);
     echo IQR($a, $m);
     
 ?>
